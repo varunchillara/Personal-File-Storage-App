@@ -10,3 +10,16 @@ run-selenium-tests:
 
 run-local:
 	./mvnw spring-boot:run
+
+#Windows specific commands
+__clean-win:
+	.\mvnw.cmd clean -f pom.xml
+
+package-win: __clean-win
+	.\mvnw.cmd package -f pom.xml
+
+run-selenium-tests-win:
+	.\mvnw.cmd test -f pom.xml
+
+run-local-windows:
+	.\mvnw.cmd spring-boot:run
