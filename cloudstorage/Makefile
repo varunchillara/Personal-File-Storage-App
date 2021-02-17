@@ -21,5 +21,5 @@ package-win: __clean-win
 run-selenium-tests-win:
 	.\mvnw.cmd test -f pom.xml
 
-run-local-windows:
+run-local-win:
 	.\mvnw.cmd spring-boot:run
