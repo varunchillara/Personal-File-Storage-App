@@ -59,18 +59,18 @@ iii. Credentials
 - The user is able to edit and delete credentials.
 - When the user views the credential the password is decrypted.
 
-### Make-File
+### Build Project
 These commands are used to run the project in a mac or linux environment.
- - __clean
- - package
- - run-selenium-tests
- - run-local
+ - clean - `make __clean`
+ - package - `make package`
+ - run selenium tests - `make run-selenium-tests`
+ - run locally - `make run-local`
 
 These commands are used to run the project in a window's environment.
-- __clean-win
-- package-win
-- run-selenium-tests-win
-- run-local-win
+- clean - `make __clean-win`
+- package - `make package-win`
+- run selenium tests - `make run-selenium-tests-win`
+- run locally - `make run-local-win`
 
 
 
